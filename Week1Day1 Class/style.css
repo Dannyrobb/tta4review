@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  border: 3px dotted pink;
+  background-color: beige;
+  margin-bottom: 30px;
+}
+
+#firstP {
+  border: 1px solid black;
+  border-radius: 5%;
+  background-color: pink;
+  /* color: yellow; */
+  margin-bottom: 10px;
+}
+
+.centerText {
+  text-align: center;
+}
+
+span {
+  border: 1px solid;
+  text-align: center;
+  /* display: block; */
+}
+
+h1,
+/* p {
+  color: black;
+} */
+
+/* div p {
+    color: red;
+  } */
+
+/* div > p {
+  color: red;
+}*/
+
+ /* h3 ~ p {
+  border: 2px solid green;
+} */
+
+/* h3 + h4 {
+  border: 2px solid green;
+} */
+
+h3 {
+  color: red;
+  border: 1px green solid;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+span {
+  /* display: inline-block; */
+  width: 200px;
+  display: none;
+}
+/* body {
+  background-image: url("https://images.everydayhealth.com/images/ordinary-fruits-with-amazing-health-benefits-05-1440x810.jpg");
+} */

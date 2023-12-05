@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* #container {
+  height: 600px;
+  border: 2px solid blue;
+  /* position: relative; */
+/* } */
+
+/* #child {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  position: relative;
+  /* right: 0;
+  bottom: 0; */
+/* position: fixed;
+  top: 20px; */
+/* } */
+/* 
+#icon {
+  position: absolute;
+  right: -20px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 50%;
+} */
+
+/* #container {
+  height: 100px;
+  background-color: grey;
+  position: relative;
+  border: 2px solid lightgray;
+}
+
+#orange {
+  background-color: orange;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 10px;
+  left: 7px;
+}
+
+#blue {
+  background-color: blue;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+} */
+
+/* #container {
+  border: 3px solid green;
+  height: 400px;
+  overflow: hidden;
+  overflow: scroll;
+  overflow: auto;
+} */
+
+#container {
+  background-color: red;
+  height: 200px;
+}
+
+#blue {
+  height: 50px;
+}
+/* #container:hover {
+  background-color: blue;
+} */
+
+/* div:first-child {
+  background-color: aqua;
+} */
+
+#container > :first-child {
+  background-color: aqua;
+  color: blue;
+}
+
+div:not(.ignore) {
+  color: yellowgreen;
+}

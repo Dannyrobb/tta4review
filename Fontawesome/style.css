@@ -1,0 +1,38 @@
+img {
+  width: 200px;
+}
+
+#card {
+  border: 1px solid black;
+  display: inline-block;
+  width: 200px;
+}
+
+#top {
+  display: inline-block;
+}
+
+#top {
+  position: relative;
+}
+#icon1 {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+
+#icon2 {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: lightcyan;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
